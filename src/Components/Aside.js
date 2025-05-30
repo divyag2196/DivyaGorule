@@ -14,7 +14,10 @@ function Aside() {
                     <div className="text-left ml-2.5">
                       <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">Phone</p>
                       <p className="dark:text-white break-all">
-                        <a className="hover:text-[#FA5252] duration-300 transition" href="tel:+918898357456">+8898357456</a>
+                        <a className="hover:text-[#FA5252] duration-300 transition" href="tel:+919607671070">9607671070</a>
+                      </p> 
+                      <p className="dark:text-white break-all">
+                        <a className="hover:text-[#FA5252] duration-300 transition" href="tel:+918898357456">8898357456</a>
                       </p>
                     </div>
 
