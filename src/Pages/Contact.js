@@ -20,7 +20,7 @@ function Contact() {
             <div className="hidden w-full md:block md:w-auto" id="navbar-default">
               <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li className="m-0 p-2 rounded-[35px] hover:bg-orange-300 transition">
-                  <Link to="/home" className="block px-3 py-2 text-black "> Home </Link>
+                  <Link to="/" className="block px-3 py-2 text-black "> Home </Link>
                 </li>
                <li className="p-2 rounded-[35px] hover:bg-orange-300 transition">
                   <Link to="/resume" className="block px-3 py-2 text-black font-semibold"> Resume </Link>
