@@ -11,7 +11,7 @@ function Header() {
     <div className='header'>
         
 
-        <nav className=" border-gray-200 dark:bg-gray-900">
+        {/* <nav className=" border-gray-200 dark:bg-gray-900"> */}
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src={logo} className="h-8" alt="Flowbite Logo" />
@@ -33,7 +33,7 @@ function Header() {
                     <Link to="/" className=" max-[767px]:text-blue-600 text-orange-600" aria-current="page">Home</Link>
                 </li>
                 <li>
-                    <Link to="/resume" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</Link>
+                    <Link to="/resume" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Resume</Link>
                 </li>
                 <li>
                     <Link to="/work" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"> Work </Link>
@@ -47,7 +47,7 @@ function Header() {
             </ul>
             </div>
         </div>
-        </nav>
+        {/* </nav> */}
         
 
         
