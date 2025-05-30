@@ -11,7 +11,7 @@ function Header() {
 
         <nav className=" border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+            <Link to="/home" className="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src={logo} className="h-8" alt="Flowbite Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Divya</span>
             </Link>
