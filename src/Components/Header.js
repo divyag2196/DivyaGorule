@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../images/logo.png'
-import mainimage from '../images/me.png'
+import Index from './Index'
+
 
 
 
@@ -16,6 +17,7 @@ function Header() {
                 <img src={logo} className="h-8" alt="Flowbite Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Divya</span>
             </Link>
+            <Index />
             {/* <div>
                 <p>moon</p>
             </div> */}
@@ -46,12 +48,7 @@ function Header() {
             </div> */}
         </div>
         </nav>
-        <div className='size-full'>
-            <img src={mainimage} alt='divya gorule-walunj' />
-            <Link to="/home" className="flex items-center space-x-3 rtl:space-x-reverse">
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">About Me</span>
-            </Link> 
-        </div>
+        
 
         
 
