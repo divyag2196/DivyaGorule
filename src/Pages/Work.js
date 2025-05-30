@@ -10,7 +10,7 @@ function Work() {
           <Aside />
         </div>
         <div className="w-full lg:w-[70%] p-4 flex flex-col lg:items-end justify-end gap-4" >
-          <div className=' bg-white dark:bg-[#111111] rounded-[20px] p-3'>
+          {/* <div className=' bg-white dark:bg-[#111111] rounded-[20px] p-3'>
             <nav className=" border-gray-200 dark:bg-gray-900">
 
               <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -36,7 +36,7 @@ function Work() {
                 </ul>
               </div> 
             </nav>
-          </div>
+          </div> */}
           <section className='bg-white dark:bg-[#111] rounded-[20px] p-6 w-[100%]'>
             <h2 className='text-2xl font-bold'>
               About Me
