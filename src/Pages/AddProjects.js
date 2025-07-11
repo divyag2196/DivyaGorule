@@ -59,11 +59,11 @@ function AddProject({fetchProject}) {
             </h2>
             <form onSubmit={handleForm}>
                 <div>
-                    <label>Project Title:</label>
+                    <label>Project Title :</label>
                     <input type='text' name='title' placeholder='Enter Title of Project' value={title} onChange={(e)=>setTitle(e.target.value)}/>
                 </div>
                 <div>
-                    <label>Project Description:</label>
+                    <label>Project Description :</label>
                     <textarea name='description' placeholder='Enter description of Project' value={description} onChange={(e)=>setDescription(e.target.value)} />
                 </div>
                 <div>
