@@ -24,7 +24,7 @@ function AddProject({fetchProject}) {
         formData.append('link',link);
         if (image) formData.append('image', image);
 
-        axios.post('http://localhost/php/portfolio/addProjects.php',formData)
+        axios.post('https://divyagoruleportfolio.liveblog365.com/addProjects.php',formData)
         .then((response)=>{
             console.log(response.data);
             if (response.data.status === 'success') {
