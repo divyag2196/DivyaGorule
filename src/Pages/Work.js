@@ -39,8 +39,9 @@ function Work() {
           </div>
           <section className='bg-white dark:bg-[#111] rounded-[20px] p-6 w-[100%]'>
             <h2 className='text-2xl font-bold'>
-              About Me
+              Portfolio
             </h2>
+            
            
           </section>
         </div>
