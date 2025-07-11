@@ -71,7 +71,7 @@ useEffect(() => {
                 {product.image_url ? (
                   <img
                     className="phpImg"
-                    src={`http://localhost/php/portfolio/${product.image_url}?t=${Date.now()}`}
+                    src={`ttps://divyagoruleportfolio.liveblog365.com/${product.image_url}?t=${Date.now()}`}
                     alt={product.name}
                     width="100"
                   />

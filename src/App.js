@@ -6,6 +6,7 @@ import bgimg from './images/bg.jpg';
 import Resume from './Pages/Resume';
 import Work from './Pages/Work';
 import Contact from './Pages/Contact';
+import AddProject from './Pages/AddProjects';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Route path='/resume' element={ <Resume/>} />
         <Route path='/work' element={<Work/>} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/addproject' element={<AddProject/>} />
+
       </Routes>
     </BrowserRouter>
    
